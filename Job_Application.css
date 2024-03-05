@@ -1,0 +1,61 @@
+.form{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: black;
+}
+input{
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    height: 20px;
+}
+fieldset {
+    border: solid black;
+}
+input:hover{
+    border:solid black;
+}
+input[type=checkbox] {
+    margin: 4px 0 0;
+    width: 20px;
+    height: 20px;
+}
+input[type=date]{
+    width:150px;
+    height:30px;
+    font-size: 20px;
+}
+select{
+    width : 100px;
+    height:30px;
+    font-size: 15px;
+    
+}
+input[type=radio]{
+    width: 20px;
+    height: 20px;
+}
+.bgcolor{
+    background-color: skyblue;
+}
+.div_center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    height: 40px;
+    width: 40%;
+    margin-right: 5px;
+    background-color: lightgreen;
+}
+.btn:hover{
+    background-color: green;
+}
+
+
+
+

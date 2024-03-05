@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Application</title>
+    <link rel="stylesheet" href="Job_Application.css" />
+  </head>
+  <body>
+    <form action="" class="form">
+      <fieldset class="bgcolor">
+        <center><h2>Job Application</h2></center>
+        <fieldset>
+          <legend>Basic Detail</legend>
+          <div class="div_center">
+            <table style="width: 100%">
+              <tr>
+                <td><label for="first name ">* First Name</label></td>
+                <td><input type="text" name="fname" required /></td>
+                <td><label for="Last name">* Last Name</label></td>
+                <td><input type="text" name="lname" required /></td>
+              </tr>
+              <tr>
+                <td><label for="Designation">* Designation</label></td>
+                <td><input type="text" name="Dname" required /></td>
+                <td><label for="Add1">Address 1</label></td>
+                <td><input type="text" name="Add1" /></td>
+              </tr>
+              <tr>
+                <td><label for="email">* Email</label></td>
+                <td><input type="email" name="email" required /></td>
+                <td><label for="Add2">Address 2</label></td>
+                <td><input type="text" name="Add2" /></td>
+              </tr>
+              <tr>
+                <td><label for="phone">* Phone Number</label></td>
+                <td>
+                  <input type="text" maxlength="10" name="phone" required />
+                </td>
+                <td><label for="city">City</label></td>
+                <td><input type="text" name="city" /></td>
+              </tr>
+              <tr>
+                <td><label for="Gender">Gender</label></td>
+                <td>
+                  <input type="radio" name="male" />
+                  <label for="Gender">Male</label>
+                  <input type="radio" name="female" />
+                  <label for="Gender">Female</label>
+                </td>
+                <td><label for="state"> State</label></td>
+                <td>
+                  <select>
+                    <option value="select">Select</option>
+                    <option value="guj">Gujarat</option>
+                    <option value="ahe">Ahemdabad</option>
+                  </select>
+                  <label for="Zip">Zip Code</label>
+                  <input type="text" name="zip" size="1" maxlength="5" />
+                </td>
+              </tr>
+              <tr>
+                <td><label for="status">RelationShip Status</label></td>
+                <td>
+                  <select>
+                    <option value="select">Select</option>
+                    <option value="single">single</option>
+                    <option value="marri">marrried</option>
+                  </select>
+                </td>
+                <td><label for="dob">* Date of Birth </label></td>
+                <td><input type="date" required /></td>
+              </tr>
+            </table>
+          </div>
+        </fieldset>
+        <br /><br />
+        <fieldset>
+          <legend>Education Details</legend>
+          <label for="ssc">SSC Result</label>
+          <br /><br />
+          <label for="board">Name of Board</label>
+          <input type="text" name="board" />
+          <label for="year">Passing Year</label>
+          <input type="text" maxlength="4" name="year" />
+          <label for="per">Percentage</label>
+          <input type="text" maxlength="3" name="per" />
+          <br /><br />
+          <hr />
+          <label for="hsc">HSC/Diploma Result</label>
+          <br /><br />
+          <label for="board">Name of Board</label>
+          <input type="text" name="board" />
+          <label for="year">Passing Year</label>
+          <input type="text" maxlength="4" name="year" />
+          <label for="per">Percentage</label>
+          <input type="text" maxlength="3" name="per" />
+          <br /><br />
+          <hr />
+          <label for="Bachelor">Bachelor Degree</label>
+          <br /><br />
+          <label for="course">Course Name</label>
+          <input type="text" name="course" />
+          <label for="university">University</label>
+          <input type="text" name="university" />
+          <label for="year">Passing Year</label>
+          <input type="text" maxlength="4" name="year" />
+          <label for="per">Percentage</label>
+          <input type="text" maxlength="3" name="per" />
+          <br /><br />
+          <hr />
+          <label for="master">Master Degree</label>
+          <br /><br />
+          <label for="course">Course Name</label>
+          <input type="text" name="course" />
+          <label for="university">University</label>
+          <input type="text" name="university" />
+          <label for="year">Passing Year</label>
+          <input type="text" maxlength="4" name="year" />
+          <label for="per">Percentage</label>
+          <input type="text" maxlength="3" name="per" />
+          <br /><br />
+          <hr />
+        </fieldset>
+        <br /><br />
+        <fieldset>
+          <legend>Work Experience</legend>
+          <label for="Company">Company name</label>
+          <input type="text" name="company" />
+          <label for="Designation">Designation</label>
+          <input type="text" name="Designation" />
+          <label for="from">From</label>
+          <input type="date" />
+          <label for="to">To</label>
+          <input type="date" />
+          <br /><br />
+          <label for="Company">Company name</label>
+          <input type="text" name="company" />
+          <label for="Designation">Designation</label>
+          <input type="text" name="Designation" />
+          <label for="from">From</label>
+          <input type="date" />
+          <label for="to">To</label>
+          <input type="date" />
+          <br /><br />
+          <label for="Company">Company name</label>
+          <input type="text" name="company" />
+          <label for="Designation">Designation</label>
+          <input type="text" name="Designation" />
+          <label for="from">From</label>
+          <input type="date" />
+          <label for="to">To</label>
+          <input type="date" />
+          <br /><br />
+        </fieldset>
+        <br /><br />
+        <div style="display: flex">
+          <div>
+            <fieldset style="width: 500px">
+              <legend>Language Known</legend>
+              <div style="margin-left: 50px">
+                <input type="checkbox" />
+                <label for="hindi">Hindi</label>
+                <input type="checkbox" />
+                <label for="read">Read</label>
+                <input type="checkbox" />
+                <label for="write">Write</label>
+                <input type="checkbox" />
+                <label for="speak">Speak</label>
+
+                <br /><br />
+                <input type="checkbox" />
+                <label for="English">English</label>
+                <input type="checkbox" />
+                <label for="read">Read</label>
+                <input type="checkbox" />
+                <label for="write">Write</label>
+                <input type="checkbox" />
+                <label for="speak">Speak</label>
+
+                <br /><br />
+                <input type="checkbox" />
+                <label for="Gujarat">Gujarat</label>
+                <input type="checkbox" />
+                <label for="read">Read</label>
+                <input type="checkbox" />
+                <label for="write">Write</label>
+                <input type="checkbox" />
+                <label for="speak">Speak</label>
+              </div>
+            </fieldset>
+          </div>
+          <div style="margin-left: 100px">
+            <fieldset style="width: 500px">
+              <legend>Technologies You Know</legend>
+              <input type="checkbox" />
+              <label for="PHP">PHP</label>
+              <input type="radio" />
+              <label for="Beginner">Beginner</label>
+              <input type="radio" />
+              <label for="Mideator">Mideator</label>
+              <input type="radio" />
+              <label for="speak">Expert</label>
+              <br /><br />
+              <input type="checkbox" />
+              <label for="Mysql">Mysql</label>
+              <input type="radio" />
+              <label for="Beginner">Beginner</label>
+              <input type="radio" />
+              <label for="Mideator">Mideator</label>
+              <input type="radio" />
+              <label for="speak">Expert</label>
+              <br /><br />
+              <input type="checkbox" />
+              <label for="laravel">laravel</label>
+              <input type="radio" />
+              <label for="Beginner">Beginner</label>
+              <input type="radio" />
+              <label for="Mideator">Mideator</label>
+              <input type="radio" />
+              <label for="speak">Expert</label>
+              <br /><br />
+              <input type="checkbox" />
+              <label for="Oracle">Oracle</label>
+              <input type="radio" />
+              <label for="Beginner">Beginner</label>
+              <input type="radio" />
+              <label for="Mideator">Mideator</label>
+              <input type="radio" />
+              <label for="speak">Expert</label>
+              <br /><br />
+            </fieldset>
+          </div>
+        </div>
+        <br /><br />
+        <fieldset>
+          <legend>Referance Contact</legend>
+          <label for="name">Name</label>
+          <input type="text" name="name" />
+          <label for="Contact">Contact Number</label>
+          <input type="text" name="Contact" />
+          <label for="Relation">Relation</label>
+          <input type="text" name="Relation" />
+          <br /><br />
+          <label for="name">Name</label>
+          <input type="text" name="name" />
+          <label for="Contact">Contact Number</label>
+          <input type="text" name="Contact" />
+          <label for="Relation">Relation</label>
+          <input type="text" name="Relation" />
+          <br /><br />
+        </fieldset>
+        <br /><br />
+        <fieldset>
+          <legend>Preferances</legend>
+          <div class="div_center">
+            <table style="width: 100%">
+              <tr>
+                <td>
+                  <label for="preferd" style="vertical-align: top"
+                    >Preferd Location</label
+                  >
+                  <textarea
+                    id="location"
+                    name="location"
+                    rows="10"
+                    cols="10"
+                  ></textarea>
+                </td>
+                <td>
+                  <div style="margin-left: 10px; margin-right: 10px">
+                    <label for="notice">Notice Period </label>
+                    <input type="text" /><br /><br />
+                    <label for="expacted">Expacted CTC</label>
+                    <input type="text" /><br /><br />
+                    <label for="current">Current CTC</label>
+                    <input type="text" />
+                  </div>
+                </td>
+                <td>
+                  <div style="margin-bottom: 100px">
+                    <label for="department">Department</label>
+                    <select>
+                      <option value="select">Select</option>
+                      <option value="Development">Development</option>
+                      <option value="Design">Design</option>
+                      <option value="marketing">marketing</option>
+                    </select>
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </fieldset>
+        <br />
+        <div style="display: flex">
+          <input type="checkbox" style="margin: 20px" />
+          <h3>
+            By Submit an application you agree to our
+            <a href="#link">Terms & Privacy</a>
+          </h3>
+        </div>
+        <div class="div_center">
+          <input type="submit" class="btn" />
+          <input type="button" value="Cancel" class="btn" />
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
